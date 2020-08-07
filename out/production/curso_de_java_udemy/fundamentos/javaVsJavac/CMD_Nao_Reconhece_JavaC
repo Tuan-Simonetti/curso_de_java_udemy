@@ -1,0 +1,14 @@
+Caso o CMD (Prompt de comando) não reconheça a função "javac", basta adicionar o JDK à "Váriaveis de Ambiente":
+
+1) Vá para o meu computador;
+2) Clique com o botão direito do mouse em propriedades;
+3) Vá para configurações avançadas do sistema;
+4) Vá para variáveis ​​de ambiente;
+5) Nas variáveis ​​de usuário para usuário, clique em novo (botão novo no topo, não nas variáveis ​​do sistema);
+6) Defina o nome da variável como: Path
+7) Defina o valor dessa variável para: C:\Program Files\Java\jdk1.7.0_76\bin
+8) Clique OK;
+9) Clique OK;
+10) Clique OK.
+
+Agora você está pronto. Digite javaccmd. Todas as opções de javac serão exibidas.

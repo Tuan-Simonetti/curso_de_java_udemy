@@ -18,5 +18,9 @@ public class conversoesDeTipos {
         System.out.println("Média é " + soma / 2);
 
         // "BigDecimal" é uma biblioteca que possui precisão de calculo que beira os 100%
+
+        String teste = "true";
+        boolean conversao = Boolean.getBoolean(teste);
+        System.out.println(conversao);
     }
 }

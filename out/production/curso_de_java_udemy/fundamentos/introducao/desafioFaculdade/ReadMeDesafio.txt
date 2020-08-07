@@ -1,0 +1,2 @@
+Este exercício possui um propósito simples de criar "Packages", simulando os pacotes de um sistema e como eles ficariam
+organizados. Porém, com o avanço do curso, desejo tentar criar um sistema com códigos da melhor forma que eu conseguir.

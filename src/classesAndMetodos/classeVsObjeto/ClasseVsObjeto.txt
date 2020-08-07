@@ -1,0 +1,25 @@
+A classe possui o mesmo nome de seu "arquivo.java". E a sua estrutura é:
+
+(pode existir outros modificadores) class Nome {
+    corpo/conteúdo da classe, composto por: atributos e os comportamentos.
+
+    Os ATRIBUTOS são dados. Exemplo: date, String, int, boolean, etc.
+    Os COMPORTAMENTOS são métodos. É como se fosse o verbo na lingua portuguesa
+
+    Os MEMBROS de uma classe são os ATRIBUTOS E Os COMPORTAMENTOs.
+}
+
+Uma CLASSE define um TIPO. E um TIPO define uma estrutura de dados.
+A CLASSE representa uma ABSTRAÇÃO. Em outras palavras, a CLASSE representa uma simplificação.
+
+A partir de uma classe, nós criamos objetos (que representam os dados).
+OBJETOS e INSTÂNCIAS são sinônimos.
+
+Dentro das classes há:
+* váriaveis/Constantes:
+* Constutores:
+* Métodos:
+* Classes:
+
+OBS: todos eles são atributos de uma classe.
+

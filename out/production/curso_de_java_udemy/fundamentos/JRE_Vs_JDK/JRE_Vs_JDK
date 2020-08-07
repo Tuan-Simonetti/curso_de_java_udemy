@@ -1,0 +1,12 @@
+JRE (Java Runtime Environment):
+- é o conjunto de ferramentas usados pelos usuários para executar o programa desenvolvido pelo JDK;
+- é usado pelo usuário;
+
+
+JDK (Java Developer Kit):
+- é o kit de desenvolvimento usado para criar programas;
+- é usado pelo desenvolvedor;
+
+
+JVM (Java Virtual Machine):
+- é o interpretado para vários códigos;

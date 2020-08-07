@@ -1,0 +1,1 @@
+Aqui ficarão os arquivos responsáveis pelas Secretarias dos Cursos.

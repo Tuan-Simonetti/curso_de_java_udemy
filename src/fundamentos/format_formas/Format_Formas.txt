@@ -1,0 +1,54 @@
+O “f” de “printf” quer dizer formato.
+
+System.out.printf( formato, dados de saída)
+Formato obviamente descreve a saída, a saída são separadas por vírgula.
+
+Os formatos sempre começam com “%”, e como eu disse a saída são separadas por vírgulas.
+
+%s = String
+%d = Inteiro
+%f = número com ponto flutuante. Na verdade o "f" representa a vírgula.
+\t = tabulação
+\n = salto de linha
+Usando esses exemplos:
+
+System.out.printf ("%d\t%d\t%f\t%s",5,5,254.336,"Hehe");
+Saída:
+
+5 5 254,336000 Hehe
+
+
+Além disso, uma string de formatação tem esse formato:
+
+%[arg_index] [flags] [width] [precision] conversion
+
+
+% é obrigatório
+arg_index: é o numero do argumento que vai ser mostrado
+flags: “-” justifica a esquerda
+“+” inclui um sinal de mais ou menos
+“0” completa com zeros
+“,” coloca um virgula, para os pontos flutuantes
+" (" coloca números negativos entre parenteses
+width: é o número minimo de numeros que serão mostrados
+precision: vai ser usado só se for usado para trabalhar com números de pontos flutuantes
+conversion: é o tipo de argumento que será formatado
+
+vc pode formatar tanto com o metodo printf ou format
+
+int i1 = -123;
+int i2 = 12345;
+System.out.printf(">%1$(7d< \n", i1);
+System.out.printf(">%0,7d< \n", i2);
+System.out.format(">%±7d< \n", i2);
+System.out.printf(">%2$b + %1$5d< \n", i1, false);
+
+Isso produz essas saídas:
+
+(123)<
+012,345<
++12345 <
+false + -123<
+
+retirei do livro SCJP Katty Sierra
+

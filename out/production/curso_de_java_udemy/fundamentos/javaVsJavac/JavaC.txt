@@ -1,0 +1,9 @@
+Ao executar o prompt de comando, você fará a compilacao usando o comando:
+$ javac compilacaoJavaC.java
+(Sintaxe: javac "nome do arquivo")
+(que fará a compilação do arquivo java para um programa interpretado em ByteCode)
+
+Depois, para executá-lo no prompt de comando, basta executar o comando:
+$ java compilacaoJavaC
+(Sintaxe: java "nome do arquivo")
+(que fará a execucao do programa)
