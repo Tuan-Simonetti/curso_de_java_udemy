@@ -1,4 +1,4 @@
-package classesAndMetodos.classeVsObjeto.metodos.desafioMetodosCORRECAO;
+package classesAndMetodos.metodos.desafioMetodosCORRECAO;
 
 public class Testdatum {
 

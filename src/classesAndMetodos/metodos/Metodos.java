@@ -1,4 +1,4 @@
-package classesAndMetodos.classeVsObjeto.metodos;
+package classesAndMetodos.metodos;
 
 import java.util.Scanner;
 import java.util.zip.DeflaterOutputStream;
