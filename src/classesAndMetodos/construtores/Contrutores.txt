@@ -1,0 +1,19 @@
+Os construtores são métodos especiais que criam objetos a partir de uma classe.
+
+Contrutor Padrão, é aquele que não recebe nenhum parâmetro.
+
+exemplo:
+
+
+Prduto p1 = new Produto();
+(classe)        (construtor)
+
+
+O "Produto()" é um construtor padrão.
+
+A diferença entre um "método" e um "construtor" é que o método tem um tipo de retorno
+e o construtor não possui.
+
+Em resumo, o construtor é o método sem um tipo, sem um parâmetro definido e sem retorno. Por isso é
+chamado de "método Especial".
+
