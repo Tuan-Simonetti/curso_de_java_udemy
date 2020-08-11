@@ -1,0 +1,11 @@
+Criem 3 classes
+
+1) pessoa: nome da pessoa, peso da pessoa; criar um metodo chamado "comer" e vai receber o objeto da classe comida
+2) comida: nome da comida e o peso da comida.
+3) jantar: main(){criar pessoa, instanciar pessoa, instanciar comida e fazer com que a pessoa coma a comida}
+
+Quando passar o objeto "comida" para dentro da "pessoa", vamos pegar o peso da comida e acrescentar ao peso da pessoa.
+De tal forma que, depois de chamar o metodo comer.
+
+A ideia é que, cada prato tera seu peso. Quando uma pessoa ingerir esse prato, ela irá adquirir o peso da comida
+ingerida.
