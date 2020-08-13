@@ -1,4 +1,4 @@
-package rascunho;
+package uml.rascunho;
 
 public class Usuario {
 

@@ -1,11 +1,12 @@
-package rascunho;
+package uml.rascunho;
 
 import java.util.List;
 
-public class Modelo {
+public class Cliente {
 
     Long id;
     String nome;
+    String telefone;
     List<Veiculo> veiculos;
 
 }
