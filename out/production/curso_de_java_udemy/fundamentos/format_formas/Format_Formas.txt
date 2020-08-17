@@ -8,6 +8,7 @@ Os formatos sempre começam com “%”, e como eu disse a saída são separadas
 %s = String
 %d = Inteiro
 %f = número com ponto flutuante. Na verdade o "f" representa a vírgula.
+%.2f. = usado para definir a quantidade de casas decimais serão exibidas.
 \t = tabulação
 \n = salto de linha
 Usando esses exemplos:

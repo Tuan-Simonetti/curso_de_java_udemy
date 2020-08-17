@@ -1,0 +1,28 @@
+As colections se assemelham aos Arrays. Porém, diferentemente dos Arrays que são objetos tipados,
+as collections não possuem tipagem. Nesse caso, usam-se os wrappers.
+
+- SET: é um conjunto.
+* Não ordenado (por padrão): não garante uma ordenação;
+* Não indexado: não tem como acessar um elemento pelo indice;
+* Não aceita repetição: não dá para colocar dados repetidos;
+
+
+- LIST: se parece com o Array.
+* indexada: pode acessar o elemento pelo indice;
+* aceita repetição: pode colocar dados repetidos;
+
+
+- MAP: é uma estrutura composta por "chave e valor", se assemelha ao "Dicionário" de Python.
+* Chave/Valor: igual ao "Dicionário" de Python;
+* Chave não aceita repetição: o primeiro intem não aceita repetição;
+* Valor aceita repetição: o segundo item que compõe a chave aceita repetição;
+
+
+- QUEUE: é a implementação de uma fila, onde a primeira informação que entra, também é a primeira informação
+que sai.
+* First in / First out (conhecido como FiFo)
+
+
+- STACK: é o QUEUE invertido, onde o último a entrar é o primeiro a sair
+* Implementa Pilha (Stack)
+* Last in / Firt out (LiFo)

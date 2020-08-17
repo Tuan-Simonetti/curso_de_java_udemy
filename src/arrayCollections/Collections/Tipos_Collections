@@ -1,0 +1,7 @@
+____________SET____________
+
+* Pode ser heterogêneo
+* Pode ser Homogêneo: o Java prefere que seja usada de forma homogênea;
+* Não aceita objetos duplicados: objetos do mesmo "equals" ou do mesmo "hashcode" podem dar problemas;
+* Pode ser Ordenado
+* Não é indexado
