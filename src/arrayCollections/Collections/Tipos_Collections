@@ -5,3 +5,15 @@ ____________SET____________
 * Não aceita objetos duplicados: objetos do mesmo "equals" ou do mesmo "hashcode" podem dar problemas;
 * Pode ser Ordenado
 * Não é indexado
+
+
+
+____________LIST____________
+
+* Pode ser Heterogêneo
+* Pode ser Homogêneo
+* Aceita Objetos Duplicados
+* É Ordenado
+* É indexado
+
+
