@@ -1,0 +1,43 @@
+os Bancos de Dados relacionais são gerenciados (SGBD) por sistemas como: MySQL, Oracle, MariaDB, etc.
+
+Estes bancos relacionais possuem como paradigma o modelo E/R: Entidade e Relacionamento.
+
+* Entidade = é o aramazenamento de dados em forma de tabela;
+- As colunas são as classes;
+- as linhas podem ser interpretadas, também, como "tuplas".
+
+* Relacionamento = indica que os dados se relacionam entre eles.
+
+
+
+* Chave Primária (Priamy Key): é a primeira coluna de uma tabéma
+- Caracteristicas:
+1) é única;
+2) não é vazia;
+3) não muda.
+
+*OBS1* Surrogate Key: é um conceito artificial, ou seja uma chave sintética. Exemplo: IDs.
+*OBS2* Natural Key: é um conceito natural, ou seja uma chave existente/real. Exemplo: CPF.
+*OBS3* Constrain: impede que os dados na coluna não se repita.
+
+
+---------------------------MODELO: ENTIDADE / RELACIONAMENTO-------------------------------
+
+
+Tabela MÃE                                     Tabela FILHO      (** a terceira coluna é o "Foren Key")
+
+Cod | Nome |                                  | Cod | Nome | Mae_Cod |
+001 | Ana  |                                  | 001 | João |   001   |
+002 | Bia  |                                  | 002 | Gui  |   002   |
+                                              | 003 |Julia |   001   |
+
+     A relação entre essas tabelas é "1 para muitos", ou seja: "1 : *"
+
+
+
+Dentro da Linguagem SQL há: DML, DDL, DCL e TCL.
+
+* DML (Data Manipulation Language): é a parte focada em comando como: " select", "update", "insert" e "delete".
+* DDL (Data Definition Language): é a parte focada em comando como: "create", "Alter" e "Drop".
+* DCL (Data Control Language): é a parte focada em comando como: "grant" (acesso), "deny" (restrição), "Revoke" (revogação de acesso).
+* TCL (Transaction Control Language): controle de transações das operações. É a parte focada em comando como: "Begin transaction", "commit transaction", "rollback", etc.
