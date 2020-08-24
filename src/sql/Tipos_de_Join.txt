@@ -1,0 +1,12 @@
+Os joins ocorrem quando duas tabelas se encontram, criando uma interceção.
+
+A interceção é chamada de "inner". É quando a chave primaria de uma tabela vai para outra tabela, é uma consulta de dados relacionados.
+
+Quando duas tabelas se relacionam, existe o chamado "outer". Nesse caso, são os dados que estão fora da relação entre as duas tabelas.
+
+O "left join" ocorre quando a tabela da esquerda apresenta à tabela da direita todas as informações que estão na "inner" e, também, os dados de sua tabela.
+
+O "right join" ocorre o mesmo com o "left join". Porém, o inverso.
+
+O "Full join" não é suportado pelo MySQL, mas é suportado por outros bancos. No caso do MySQL, é possível usar o "left join" com "right join" e simular o "Full join".
+
