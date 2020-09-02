@@ -1,4 +1,4 @@
-package programacaoOrientadaObjeto.composicaoRelacaoMuitosParaMuitos.alunos;
+package poo.composicao.composicaoRelacaoMuitosParaMuitos.alunos;
 
 import java.util.ArrayList;
 import java.util.List;

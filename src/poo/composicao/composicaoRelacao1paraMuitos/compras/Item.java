@@ -1,4 +1,4 @@
-package programacaoOrientadaObjeto.composicaoRelacao1paraMuitos.compras;
+package poo.composicao.composicaoRelacao1paraMuitos.compras;
 
 public class Item {
 

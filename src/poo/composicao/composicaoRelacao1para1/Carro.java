@@ -1,4 +1,4 @@
-package programacaoOrientadaObjeto.composicaoRelacao1para1;
+package poo.composicao.composicaoRelacao1para1;
 
 public class Carro {
 
