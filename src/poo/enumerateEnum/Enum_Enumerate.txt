@@ -1,0 +1,5 @@
+O "ENUM" é usado quando possui uma quantidade determinada de objetos. Como por exemplo:
+
+> Direções: NORTE, SUL, LESTE e OESTE;
+
+> Meses: JANEIRO, FEVEREIRO, MARÇO, ABRIL, MAIO, JUNHO, JULHO, AGOSTO, SETEMBRO, OUTUBRO, NOVEMBRO e DEZEMBRO.

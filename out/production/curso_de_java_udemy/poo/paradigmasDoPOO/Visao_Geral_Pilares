@@ -1,0 +1,47 @@
+1) Encapsulamento: parte do código fica "escondido" da visão exterior, tornando-o sem interação direta.
+
+O encapsulamento envolve a capsula e a capsula é: "objeto", "atributo" e "métodos".
+
+Modificadores de acesso:
+- Private(private): o atributo só pode ser acessado dentro da própria classe;
+- Package (Default, não gera palavra reservada): o atributo só pode ser acessado por clásses que estejam no mesmo package;
+- Protected (protected): uma clásse de outro pacote pode acessar este atributo se houver herança;
+- Public (public): qualquer classe no sistema pode acessar um membro "publico".
+
+
+
+
+
+2) Herança: recebe atributos e comportamentos de herança. Em exemplo prático, seria pré-definida as
+caracteristicas de um carro. Logo, ao verificar as carcteristicas essenciais de um Opalav, verá que ele é um carro.
+
+Deve-se priorizar a "Composição" do que a "Herança", por causa da flexibilidade.
+
+Uma diferenciação entre "Composição" e "Herança" é:
+
+***** Composição *******                   ***** Herança *****
+- "... tem um(a)..."                       - "... é um(a)"..."
+- carro TEM UM motor;                      - civic É UM carro;
+- carro TÊM portas;                        - gato É UM mamífero;
+- casa TEM UMA cozinha;                    - maçã É UMA fruta.
+
+A herança só pode entre 2 clásses. Ou seja, só pode ocorrer de 1 para 1.
+
+
+
+
+
+
+
+3) Polimorfismo: para existir Polimorfismo, é necessário a existência de Herança.
+
+Existem 2 tipos de "Polimorfismo":
+I - Estático: quando se tem vários métodos com o mesmo nome. Porém, seus atributos e estrutura de código são diferentes;
+II - Dinâmico: as subclasses que herdam da SuperClasse podem alternar entre elas.
+
+
+
+
+
+4) Abstração: serve para extrairmos do mundo real elementos essenciais para que seja construido o sistema e atender
+às necessidades de negócio.
